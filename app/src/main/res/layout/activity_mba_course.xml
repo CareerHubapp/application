@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MtechCourseActivity"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/appbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/colappsingtoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:contentScrim="?attr/colorPrimary"
+            app:title="Specialized Courses"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+            android:background="@drawable/ic_back">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarid"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginBottom="70dp">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="365dp"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="MBA/PGDM"
+                        android:textColor="#FFC107"
+                        android:textSize="30sp"
+                        android:fontFamily="@font/pixelfont"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/pixelfont"
+                        android:text="Master of Business Administration or MBA is one of the most popular
+post-graduate programmes in India and abroad. The two-year programme is a gateway to
+a plethora of job opportunities in the corporate world."
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:includeFontPadding="true"
+                        />
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Executive MBA/PGDM "
+                                android:textColor="#FFC107"
+                                android:textSize="30sp"
+                                android:fontFamily="@font/pixelfont"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/pixelfont"
+                                android:text="It is a post graduate management programme exclusively
+meant for working professionals who wish to upgrade their managerial skills in their field of work or
+industryto be able to adapt to the rapidly changing business environment and stay relevant in the
+job market."
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:includeFontPadding="true"
+                                />
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="365dp"
+                            android:layout_height="wrap_content"
+                            android:background="#ffffff"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Distance MBA"
+                                android:textColor="#FFC107"
+                                android:textSize="30sp"
+                                android:fontFamily="@font/pixelfont"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/pixelfont"
+                                android:text="Distance MBA (MBA Distance Education) is a lucrative career
+option for those who cannot pursue a full-time MBA programme due to many circumstances like lack of money
+to afford the course, work schedule etc. Distance learning MBA is flexible and affordable option which does
+not require candidates to attend the classes regularly"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:includeFontPadding="true"
+                                />
+
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Online MBA"
+                            android:textColor="#FFC107"
+                            android:textSize="30sp"
+                            android:fontFamily="@font/pixelfont"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/pixelfont"
+                            android:text="Online MBA is a convenient mode of learning especially for
+working professionals who look to complete their management degrees without sacrificing their jobs. In
+recent years, with the advancement in data connection and speed, the reliability of people have increased on
+online MBA. Because of its dependability on satellite (online mediums), it is also known as satellite
+management programs."
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:includeFontPadding="true"
+                            />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

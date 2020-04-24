@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">CareerHub</string>
+    <string name="mtech_info">Master of Technology (M.Tech)is the higher specialized course in the field of engineering.
+        M.Tech provides you the insight and deep knowledge of the subjects that you have studied in your B.Tech course.
+        </string>
+    <string name="mtech_info1">Eligibility For M.Tech Program</string>
+    <string name="mtech_info2">
+        The students have to obtained at least a college level Bachelor’s degree in Technology (B.Tech) in related field with qualified marks.
+        </string>
+
+    <string name="mtech_info3">GATE is the national
+    Level Examm which provides admission in IITs. GATE scores are also accepted in other engineering institutions.</string>
+
+    <string name="mtech_info4">Salary depends upon your job profile, experience, skills, knowledge and location.</string>
+
+    <string name="mtech_info7">If you are working for a corporate company, then your salary package will be Rs. 4 to 6 lacs per annum.</string>
+
+    <string name="mtech_info6">In a teaching profession as an assistant professor, you can earn Rs. 25,000 to 40,000/- as salary.</string>
+
+    <string name="mtech_info5">The duration of this course is 2 years. It is the higher specialized course in the field of engineering.</string>
+    <string name="title_activity_mba">MbaActivity</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="mba_info">Master of Business Administration(MBA) is the higher specialized course in the field of engineering.
+        MBA provides you the insight and deep knowledge of Business and management.
+        </string>
+
+    <string name="mba_info1">The candidates have to clear the entrance examination, which is accepted by the desired institution. Any graduates can eligible for the
+    Entrance test. The ranking procedure Followed by the Universities for admission. The minimum Eligibility is bachelor degree with a minimum
+    aggregate of 50% marks.</string>
+
+    <string name="mba_info2">MBA Course admission in a reputed institution is to have a decent score in the Common Admission test (CAT). The CAT Entrance test  Most of the B- Schools in India
+    accept any of the scores of the test.</string>
+
+    <string name="mba_info3"> The Duration of the Course is 2 years, the typical full-time MBA student takes three courses, per semester. Most full-time programs feature two semesters per academic year,
+        which means students can expect to complete their degree two full years after they began the program.</string>
+
+    <string name="gre_info">Graduate Record Examination (GRE) is an international standardized test required for admission into Graduate Schools in the United States of America and other parts of the world.
+        Education Testing Services (ETS) is the organzing body of GRE. The test is conducted in offline mode thrice a year and in online mode throughout the year. \n \n
+        ~GRE intends to assess candidates verbal reasoning, quantitative reasoning, analytical writing, and critical thinking skills. Check GRE Exam Pattern \n \n
+~A candidate can take the test a maximum of five times over a period of 12 months. There should be a gap of 21 days between 2 GRE attempts. \n \n
+~GRE Score is valid for up to 5 years. \n \n
+~GRE test-takers will receive 3 separate scores, one for each section. Math and Verbal GRE scores range on a scale of 130–170. Analytical Writing scores range from 0–6. \n \n
+~GRE Subject tests aim at assessing candidate’s ability in a particular field of study. \n \n
+~GRE Subject test is available in Biology, Chemistry, Mathematics, Literature in English, Psychology and Physics.
+</string>
+
+    <string name="gre_info1">The GRE General Test consists of three sections \n\n
+
+• Analytical Writing \n\n
+
+• Verbal Reasoning\n \n
+
+• Quantitative Reasonin \n \n
+
+GRE paper pattern for the GRE Computer-based and Pen-paper based Exam \n \n
+
+ </string>
+
+    <string name="gateinfo">GATE is an online national level examination conducted for Master of Engineering (ME), Masters in Technology (MTech) and direct PhD admissions to Indian Institutes of Technology (IITs),
+        National Institutes of Technology (NITs), Indian Institutes of Information Technology (IIITs) and other institutes/universities across India.  </string>
+
+    <string name="gateinfo2">Candidates are urged to ensure they meet the prescribed eligibility criteria of GATE 2020, as otherwise they will not be considered for admission. Some of the important eligibility parameters
+        that candidates are most concerned about are related to academic qualification, age limit, and nationality.</string>
+
+    <string name="gateinfo3">GATE exam pattern 2020 will tell the candidate whether the test will be conducted in online or offline mode, type of questions asked, distribution of questions, number of questions asked, etc. which are essential details for thorough preparation for the test. As per the GATE 2020 exam pattern, all 25 papers
+        for the exam will include a compulsory General Aptitude section carrying 15 marks. The full details of the exam pattern are described in the tables below.</string>
+</resources>

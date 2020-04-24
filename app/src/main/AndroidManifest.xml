@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.careerhub">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GatePattern"></activity>
+        <activity android:name=".Aboutus" />
+        <activity android:name=".ExtraClass" />
+        <activity android:name=".ConformationActivity" />
+        <activity android:name=".VerificationPhoneActivity" />
+        <activity android:name=".EnterNumber" />
+        <activity android:name=".ClassesActivity" />
+        <activity android:name=".IndianExamGmat" />
+        <activity android:name=".IndianExamCat" />
+        <activity android:name=".IndianExamMat" />
+        <activity android:name=".IndianExamMicat" />
+        <activity android:name=".IndianExamGate" />
+        <activity android:name=".IndianExam" />
+        <activity android:name=".GreExamPattern" />
+        <activity android:name=".AbroadExamPte" />
+        <activity android:name=".AbroadExamTofle" />
+        <activity android:name=".AbroadExamIelts" />
+        <activity android:name=".AbroadExamGmat" />
+        <activity android:name=".AbroadExamGre" />
+        <activity android:name=".AbroadExam" />
+        <activity android:name=".MbaBooks" />
+        <activity android:name=".MbaCourse" />
+        <activity android:name=".MtechSalary" />
+        <activity android:name=".CollegesActivity" />
+        <activity android:name=".CollegesAbroad" />
+        <activity android:name=".CollegesIndia" />
+        <activity android:name=".AbMbaColleges" />
+        <activity android:name=".AbMtechColleges" />
+        <activity android:name=".InMbaColleges" />
+        <activity android:name=".InMtechColleges" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExamActivity" />
+        <activity android:name=".MbaActivity" />
+        <activity android:name=".MtechBooksActivity" />
+        <activity android:name=".MtechCourseActivity" />
+        <activity android:name=".MtechActivity" />
+        <activity android:name=".CareerActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".StartActivity" />
+    </application>
+
+</manifest>
